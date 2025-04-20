@@ -60,7 +60,3 @@ Apply Migrations:
 
 -->python3 manage.py runserver
 
-**Follow these video link how to connect with postgresql:**
-
-https://drive.google.com/file/d/1jUYqTqp_CTMRYu6FKNIT5327IPQh0fYk/view?usp=sharing
-
