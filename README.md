@@ -28,10 +28,10 @@ How to connect a Django application to your PostgreSQL database
 
 
 CREATE DATABASE bluestock;
-CREATE USER daiyanalam WITH PASSWORD '12345';
-ALTER ROLE daiyanalam SET client_encoding TO 'utf8';
-ALTER ROLE daiyanalam SET default_transaction_isolation TO 'read committed';
-ALTER ROLE daiyanalam SET timezone TO 'UTC';
+CREATE USER swapna WITH PASSWORD '12345';
+ALTER ROLE swapna SET client_encoding TO 'utf8';
+ALTER ROLE swapna SET default_transaction_isolation TO 'read committed';
+ALTER ROLE swapna SET timezone TO 'UTC';
 GRANT ALL PRIVILEGES ON DATABASE bluestock TO daiyanalam;
 
 
@@ -45,8 +45,8 @@ pip install psycopg2-binary
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'bluestock',
-        'USER': 'daiyanalam',
+        'NAME': 'ipo',
+        'USER': 'swapna',
         'PASSWORD': '12345',
         'HOST': 'localhost',
         'PORT': '5432',
